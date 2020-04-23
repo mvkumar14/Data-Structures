@@ -125,7 +125,6 @@ class LRUCache:
         # when you access the dictionary again handle the case where
         # the value of the node that the dictionary points to is none
         self.storage.tail.value = None
-
         self.storage.remove_from_tail()
         pass
         # if the length is greater than capacity
